@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "promptops"
+version = "0.1.0"
+description = "PromptOps Python SDK — LLM observability in one line of code"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "httpx>=0.24.0",
+]
+
+[project.optional-dependencies]
+openai = ["openai>=1.0.0"]
+langchain = ["langchain>=0.1.0"]
