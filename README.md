@@ -231,13 +231,3 @@ All analytics endpoints accept `?days=N` parameter (default: 30).
 ## 📄 License
 
 MIT License — See [LICENSE](LICENSE) for details.
-
----
-
-<div align="center">
-
-Built with ❤️ by [Meryem Şakin](https://github.com/meryemsakin)
-
-**[⭐ Star this repo](https://github.com/meryemsakin/promptops)** if you find it useful!
-
-</div>
